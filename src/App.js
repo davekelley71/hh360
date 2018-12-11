@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Carousel from './components/Carousel';
+
+import yinyangFlow from './yinyangFlow.jpg';
 import './App.css';
 
 class App extends Component {
@@ -7,19 +9,90 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+         <img className="App-logo" src={yinyangFlow} alt="Yin Yang Flow"/>
+          <h3 className="Message">          
+            Strive to Thrive! Healing with Wholeness
+          </h3>
+          <div className="links">
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Home
+            </a>          
+          
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About
+            </a>
+
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Yoga
+            </a>
+
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reiki
+            </a>
+
+            <a
+              className="link"
+              href="https://www.crunchi.com/melissakelley"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Crunchi Makeup
+            </a>
+            
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Life Coaching
+            </a>
+
+            <a
+              className="link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
+
+          </div>
+
+          
+          <h1 className="Title">
+            Holistic Healing 360
+          </h1>
+          
+          <Carousel/>
+          
+          
+        
+
         </header>
+        
+
+        
       </div>
     );
   }
