@@ -39,12 +39,17 @@
   padding-bottom: 20px;
 }
 
-.Cycle {
-    background-color: #282c34;
+.carousel {
+    background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    align-items: center; 
+}
+
+.carouselImages {
+  display: flex;
+  height: 240px;
+  width: 250px;
+}
 
 .Tree-pose {
   display: flex;
@@ -56,6 +61,11 @@
 
 .Title {
   color: #C0C0C0FF;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 
 @keyframes App-logo-spin {
