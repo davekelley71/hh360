@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from './components/Carousel';
-
+import treepose from './treepose.png';
 import yinyangFlow from './yinyangFlow.jpg';
 import './App.css';
 
@@ -91,7 +91,7 @@ class App extends Component {
 
         </header>
         
-        
+
         
       </div>
     );

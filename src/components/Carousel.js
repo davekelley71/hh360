@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import yinyangSky from '../yinyangSky.jpg';
 import yinyangPuzzle from '../yinyangPuzzle.jpg';
-import treepose from '../treepose.png';
+
 import crunchiBlush from '../crunchiBlush.png';
 import '../App.css';
 import Carousel from 'react-easy-carousel'

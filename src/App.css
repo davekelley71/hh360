@@ -11,7 +11,11 @@
 }
 
 .App-header {
-  background-color: black;
+  background-color: #568080FF;
+  background-image: url("treepose.png");
+  background-size: flex;
+  background-position: center;
+  background-repeat: repeat-x;
   height: 100vh;
   display: flex;
   flex-direction: column;
